@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    width: 100%;
+    max-width: var(--maxWidth);
+    padding: 0 var(--spacing);
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo svg {
+    fill: var(--color01m);
+}
+
+.list {
+    display: flex;
+}
+
+.item {
+    padding: 0 20px;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--textColor);
+    transition: color .2s ease-in-out;
+}
+
+.item:hover {
+  color: var(--color01d);
+}
+.active {
+  color: var(--color01);
+}
+
+.item:first-child {
+    text-align: right;
+    border-right: 2px solid var(--color01m);
+}

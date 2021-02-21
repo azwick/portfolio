@@ -1,0 +1,20 @@
+.bar{
+    margin-top: 30px
+}
+
+.list {
+    display: flex;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.link svg {
+    fill: var(--textColor);
+    transition: fill .2s ease-in-out;
+}
+
+.link:hover svg {
+    fill: var(--color01d);
+}
