@@ -18,7 +18,7 @@ export default function Home() {
               <Image width={300} height={600} src="/intro-dev.png" alt="Development" />
             </a>
           </Link>
-
+  
           <Link href="/design">
             <a className={styles.introRight}>
               <Image width={300} height={600} src="/intro-design.png" alt="Design" />
