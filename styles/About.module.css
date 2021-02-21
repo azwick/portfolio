@@ -6,6 +6,10 @@
     margin-top: 100px;
 }
 
+.about img {
+    border-radius: 7px;
+}
+
 .container {
     max-width: var(--maxWidth);
     padding: var(--spacing);

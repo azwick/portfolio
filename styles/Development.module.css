@@ -25,6 +25,8 @@
 
 .box {
     border: 2px solid var(--color01l);
+    border-radius: 7px;
+    overflow: hidden;
     height: 240px;
     padding: 10px;
     display: flex;

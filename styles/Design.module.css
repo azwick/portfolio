@@ -25,11 +25,9 @@
 
 .box {
     border: 2px solid var(--color01l);
-    min-height: 200px;
+    border-radius: 7px;
+    overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .heading {
