@@ -5,17 +5,16 @@
 
 .intro {
   display: flex;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .introLeft {
   width: 50%;
-  height: 500px;
   background-color: var(--color01l);
 }
 
 .introRight {
   width: 50%;
-  height: 500px;
   background-color: #ece1d6;
 }

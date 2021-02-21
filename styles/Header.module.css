@@ -21,12 +21,21 @@
 }
 
 .item {
-    padding: 0 20px;
-    width: 200px;
+    width: 150px;
     text-transform: uppercase;
     font-weight: 500;
     color: var(--textColor);
     transition: color .2s ease-in-out;
+}
+
+.item:first-child {
+    text-align: right;
+    border-right: 2px solid var(--color01m);
+    padding-right: 20px;
+}
+
+.item:last-child {
+    padding-left: 20px;
 }
 
 .item:hover {
@@ -34,9 +43,4 @@
 }
 .active {
   color: var(--color01);
-}
-
-.item:first-child {
-    text-align: right;
-    border-right: 2px solid var(--color01m);
 }
