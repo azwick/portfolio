@@ -28,19 +28,19 @@ const Design = () => {
                         <Image width={900} height={600} src="/goldherzkolibri.jpg" alt="Goldherzkolibri Logo" />
                     </div>
                     <div className={styles.box}>
-                        <Image width={900} height={600} src="/bianca-eventverliebt.jpg" alt="Bianca Eventverliebt Logo" />
+                        <a target="_blank" href="https://www.instagram.com/bianca.eventverliebt/"><Image width={900} height={600} src="/bianca-eventverliebt.jpg" alt="Bianca Eventverliebt Logo" /></a>
                     </div>
                     <div className={styles.box}>
-                        <Image width={900} height={600} src="/erziehungsfreude.jpg" alt="Erziehungsfreude Logo" />
+                        <a target="_blank" href="https://www.erziehungsfreu.de/"><Image width={900} height={600} src="/erziehungsfreude.jpg" alt="Erziehungsfreude Logo" /></a>
                     </div>
                     <div className={styles.box}>
-                        <Image width={900} height={600} src="/verein-zur-foerderung-krebskranker-kinder.jpg" alt="Verein zur Förderung krebskranker Kinder Rostock e.V. Logo" />
+                        <a target="_blank" href="https://kinderkrebshilfe-rostock.de/"><Image width={900} height={600} src="/verein-zur-foerderung-krebskranker-kinder.jpg" alt="Verein zur Förderung krebskranker Kinder Rostock e.V. Logo" /></a>
                     </div>
                     <div className={styles.box}>
                         <Image width={900} height={600} src="/liwell-akademie.jpg" alt="Liwell Akademie Logo" />
                     </div>
                     <div className={styles.box}>
-                        <Image width={900} height={600} src="/waldemar-schneider.jpg" alt="Waldemar Schneider Logo" />
+                        <a target="_blank" href="https://www.waldemar-schneider.de/"><Image width={900} height={600} src="/waldemar-schneider.jpg" alt="Waldemar Schneider Logo" /></a>
                     </div>
                     <div className={styles.box}>
                         <Image width={900} height={600} src="/crimson-team.jpg" alt="Crimson Team Logo" />
