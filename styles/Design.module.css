@@ -28,6 +28,7 @@
     border-radius: 7px;
     overflow: hidden;
     display: flex;
+    line-height: 0;
 }
 
 .heading {
