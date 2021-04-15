@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
-  --maxWidth: 1200px;
+  --maxWidth: 1600px;
   --spacing: 40px;
-  
-  --textFont: 'Raleway', sans-serif;
-  --textColor: #807265;
 
-  --color01: #cab6a4; /* #d8c2ad   #bfa388*/
-  --color01l: #f8f3e9;
-  --color01m: #decbb9;
-  --color01d: #ad9b88; /* #ad9b88 #bba793 */
+  --textFont: 'Courier Prime', monospace;
+  --textColor: black;
+  --linkColor: #8a9889;
 
-  --color02: #c9cba3;
-  --color02l: #e7e8d4;
-
-  --color03: #e26d5c;
-  --color03l: #fff2f0;
+  --color01: #C4D4C3;
 }
 
 html,
 body {
-  /* background-color: var(--color01l); */
   padding: 0;
   margin: 0;
   font-family: var(--textFont);
   color: var(--textColor);
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
 a {
@@ -35,12 +35,12 @@ a {
 }
 
 .link {
-  color: var(--color01);
+  color: var(--linkColor);
   transition: color .2s ease-in-out;
 }
 
 .link:hover {
-  color: var(--color01d);
+  color: var(--color01);
 }
 
 ul {
@@ -49,28 +49,35 @@ ul {
   margin: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.active {
-  color: var(--color01);
-}
-
 .headline01 {
   text-transform: uppercase;
-  font-size: 28px;
+  text-align: center;
+  font-size: 32px;
   font-weight: 500;
-  margin-top: 0;
+  margin: 0 0 20px;
+  padding: 7px 15px 2px;
+  line-height: 1;
+  background: var(--color01);
 }
 
 .headline02 {
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 26px;
+  margin: 40px 0 20px;
+}
+
+.headline03 {
+  margin: 20px 0 10px;
 }
 
 .notFound {
   flex: 1;
   text-align: center;
+}
+
+/* ------------------------- utility ------------------------- */
+
+.spaceTop {
+  margin-top: var(--spacing);
 }

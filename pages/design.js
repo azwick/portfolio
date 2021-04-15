@@ -1,4 +1,3 @@
-import About from "../components/About"
 import Head from 'next/head'
 import Image from "next/image";
 import styles from '../styles/Design.module.css'
@@ -8,18 +7,19 @@ const Design = () => {
         <>
             <Head>
                 <title>Zwickermann | Design</title>
-                <meta name="keywords" content="Frontend Design, Design" />
-                <meta name="description" content="Latest design references on zwickermann."/>
+                <meta name="keywords" content="Front-end Design, Design, Frontend-Development, Development, Developer, Anne Debora Zimmermann-Zwick" />
+                <meta name="description" content="Latest design references from Anne Debora Zimmermann-Zwick on zwickermann.com"/>
             </Head>
 
             <main className={styles.main}>
 
-                {/* <div className={styles.heading}>
+                <div className={styles.heading}>
                     <h1 className="headline01">Design</h1>
                     <blockquote className={styles.quote}>
-                        "Every great design begins with an even better story." <i className={styles.author}>- Lorinda Mamo</i>
+                        "Design is thinking made visual." <br/>
+                        <span className={styles.author}>Saul Bass</span>
                     </blockquote>
-                </div> */}
+                </div>
 
                 <div className={styles.content}>
                     {/* Filter: (Alles) | Logo | Illustration | Corporate Design | Sonstiges */}
@@ -63,7 +63,6 @@ const Design = () => {
                     <div className={styles.box}>Coming soon: <br/> Lady Autumn (Illu)</div> */}
                 </div>
             </main>
-            <About />
         </>
      );
 }

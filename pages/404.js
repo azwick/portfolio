@@ -9,7 +9,7 @@ const NotFound = () => {
         setTimeout(() => {
             // router.go(1) // Back to the last page
             router.push('/');
-        }, 3000)
+        }, 1000)
     }, [])
 
     return ( 

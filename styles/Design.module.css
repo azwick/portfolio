@@ -2,7 +2,7 @@
     flex: 1;
     width: 100%;
     max-width: var(--maxWidth);
-    padding: 0 var(--spacing);
+    padding: var(--spacing);
 }
 
 .content {
@@ -24,23 +24,27 @@
 }
 
 .box {
-    border: 2px solid var(--color01l);
-    border-radius: 7px;
+    border: 2px solid var(--color01);
     overflow: hidden;
     display: flex;
     line-height: 0;
 }
 
 .heading {
-    margin-bottom: 100px;
+    margin: 40px 0 100px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .author {
-    color: var(--color01d);
+    color: var(--linkColor);
+    padding-top: 10px;
+    display: inline-block;
 }

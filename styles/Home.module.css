@@ -1,22 +1,39 @@
 .main {
   flex: 1;
-  margin-bottom: 100px;
+  width: 100%;
+  max-width: var(--maxWidth);
+  padding: var(--spacing);
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
 }
 
 .intro {
-  display: flex;
+  line-height: 1.3;
+  margin: 0;
+  text-align: center;
   width: 100%;
-  max-width: 600px;
-  border-radius: 7px;
-  overflow: hidden;
+  font-size: 26px;
+}
+@media (min-width: 640px) {
+    .intro {
+      font-size: 40px;
+    }
+}
+@media (min-width: 1080px) {
+    .intro {
+      font-size: 50px;
+    }
+}
+@media (min-width: 1920px) {
+    .intro {
+      font-size: 60px;
+    }
 }
 
-.introLeft {
-  width: 50%;
-  background-color: var(--color01l);
-}
-
-.introRight {
-  width: 50%;
-  background-color: #ece1d6;
+.marked {
+  font-weight: normal;
+  background: var(--color01);
+  padding: 4px 15px 0;
 }

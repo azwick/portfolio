@@ -2,7 +2,7 @@ import styles from '../styles/SocialMedia.module.css'
 
 const SocialMedia = () => {
     return ( 
-        <nav class={styles.bar}>
+        <nav>
               <ul class={styles.list}>
                   <li class={styles.item}>
                     <a class={styles.link} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anne-debora-zimmermann-184bb4142/">

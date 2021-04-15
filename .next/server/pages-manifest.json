@@ -1,7 +1,15 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/design": "pages/design.html",
+  "/development": "pages/development.html",
+  "/downloads": "pages/downloads.html",
+  "/imprint": "pages/imprint.html",
+  "/": "pages/index.html",
+  "/music": "pages/music.html",
+  "/photography": "pages/photography.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/development": "pages/development.js",
-  "/design": "pages/design.js"
+  "/_document": "pages/_document.js"
 }

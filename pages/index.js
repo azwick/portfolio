@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from "next/image";
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,23 +6,16 @@ export default function Home() {
     <>
       <Head>
         <title>Zwickermann</title>
-        <meta name="keywords" content="Development, Developer, Frontend Development, Design" />
+            <meta name="keywords" content="Front-end Design, Design, Frontend-Development, Development, Developer, Anne Debora Zimmermann-Zwick" />
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.intro}>
-          <Link href="/development">
-            <a className={styles.introLeft}>
-              <Image width={300} height={600} src="/intro-dev.png" alt="Development" />
-            </a>
-          </Link>
-  
-          <Link href="/design">
-            <a className={styles.introRight}>
-              <Image width={300} height={600} src="/intro-design.png" alt="Design" />
-            </a>
-          </Link>
-        </div>
+          <h1 className={styles.intro}>
+            Moin, I'm Anne. <br/>
+            Welcome to my playground <br/> 
+            of <b className={styles.marked}>creativity</b> and <br/> 
+            public <b className={styles.marked}>learning</b>.
+          </h1>
       </main>
     </>
   )

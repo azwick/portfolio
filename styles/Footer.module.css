@@ -1,0 +1,15 @@
+.footer {
+    max-width: var(--maxWidth);
+    padding: var(--spacing);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: baseline;
+}
+
+.footer a:hover,
+.active {
+    color: var(--linkColor);
+    transition: color .2s ease-in-out;
+}
